@@ -2,17 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dubbo-frame</artifactId>
+        <groupId>com.mylife.lixin</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mylife.lixin</groupId>
-    <artifactId>dubbo-frame</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>dubbo-frame-web</module>
-        <module>dubbo-frame-service</module>
-        <module>dubbo-frame-manager</module>
-    </modules>
+    <artifactId>dubbo-frame-manager</artifactId>
 
 
 </project>
